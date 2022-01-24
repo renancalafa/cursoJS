@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --primary-color: rgb(82, 84, 189);
+  --primary-color-darker: rgb(60, 18, 136);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 1;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: blanchedalmond;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.container h1 {
+  margin: 5px;
+}
+
+.container div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container button {
+  height: 40px;
+  width: 100px;
+  margin: 5px;
+  transition-duration: 0.4s;
+
+}
+
+.container button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.display-calc {
+  height: 40px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 2em;
+  text-indent: 5px;
+  text-align: right;
+  }

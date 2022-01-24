@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Model</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="bmi">
+    <div class="container-table">
+      <h2>TABELA IMC</h2>
+      <div class="table-description">
+        <div>
+          <h3>BMI</h3>
+          <p>Less than 18,5</p>
+          <p>Between 18,5 and 24,9</p>
+          <p>Between 25 and 29,9</p>
+          <p>Between 30 and 34,9</p>
+          <p>Between 35 and 39,9</p>
+          <p>Higher than 40</p>
+        </div>
+        <div>
+          <h3>Result</h3>
+          <p>Underweight</p>
+          <p>Normal Weight</p>
+          <p>Overweight</p>
+          <p>Class 1 Obesity</p>
+          <p>Class 2 Obesity</p>
+          <p>Class 3 Obesity</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-form">
+      <h2>Calculate your BMI</h2>
+      <form action="" class="form-bmi" method="get">
+        <label for="label-weight">Weight (kg)<input class="weight" type="number"></label>
+        <label for="label-height">Height (cm)<input class="height" type="number"></label>
+        <button>Send</button>
+      </form>
+      <div class="results"></div>
+    </div>
+  </section>
+  <script src="./script.js"></script>
+</body>
+</html>

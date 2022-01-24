@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+--primary-color: rgb(82, 84, 189);
+--primary-color-darker: rgb(60, 18, 136);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bmi {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 40%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.container-table h2 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.table-description {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-bmi {
+  display: flex;
+  flex-direction: column;
+}
+
+.results {
+  display: flex;
+  justify-content: center;
+  /* height: 50px; */
+  /* margin-top: 10px; */
+
+}
+
+.p-results-green, .p-results-red, .p-results-yellow, .p-results-blue {
+  background-color: greenyellow;
+  padding: 10px 20px;
+}
+
+.p-results-blue {
+  background-color: turquoise;
+}
+
+.p-results-red {
+  background-color: red;
+}
+
+.p-results-yellor {
+  background-color: yellow;
+}
+
+form input, label {
+  width: 100%;
+  margin: 5px auto;
+}
+
+form input:focus {
+  border: 2px solid var(--primary-color-darker);
+}
+
+form input {
+  font-size: 24px;
+  height: 40px;
+  padding: 0 20px;
+}
+
+form button {
+  font-weight: 700;
+  margin-top: 10px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+form button:hover {
+  background-color: var(--primary-color-darker);
+}
